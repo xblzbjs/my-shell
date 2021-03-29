@@ -34,9 +34,9 @@ function goConfigForMac(){
     case $SHELL in
     */zsh)
         echo "当前是zsh shell"
-        echo "设置GOPRIVATE"
-        go env -w GO111MODULE=auto
-        go env -w GOPROXY=https://goproxy.io,direct
+        # echo "设置GOPRIVATE"
+        # go env -w GO111MODULE=auto
+        # go env -w GOPROXY=https://goproxy.io,direct
         # export GOPRIVATE=*.applysquare.* >> ~/.example
         # export "GOPROXY='https://goproxy.cn,direct'" >> ~/example.txt
         # export FLORA_DIR='$HOME/a2/src/eng/flora' >> ~/example.txt
@@ -85,7 +85,7 @@ if [ $(uname) == "Darwin" ];then
         packageInstall $loop
     done
     # Go环境配置
-    goConfigForMac
+    # goConfigForMac
 fi
 
 
