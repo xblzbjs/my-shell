@@ -1,5 +1,6 @@
 #!/bin/bash
 
+work_directory_path = ""
 directory_path = ""
 
 function get_directory_path() {
