@@ -15,7 +15,7 @@ function dockerInstall(){
     ca-certificates \
     curl \
     gnupg \
-    lsb-releaseudo apt-get install \
+    lsb-releaseudo \
     apt-transport-https \
     ca-certificates \
     curl \
